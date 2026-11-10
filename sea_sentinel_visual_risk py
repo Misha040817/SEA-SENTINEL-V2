@@ -1,0 +1,175 @@
+"""Actual image-based risk assessment for SEA SENTINEL V2.
+Uses free local SmolVLM-500M-Instruct on CPU; never returns invented model outputs.
+"""
+import json
+import re
+import sqlite3
+from datetime import datetime, timezone
+from pathlib import Path
+
+MODEL_ID = 'HuggingFaceTB/SmolVLM-500M-Instruct'
+DB_PATH = Path(__file__).resolve().parent / 'sea_sentinel_results.sqlite3'
+HAZARDS = {
+    'fire_or_smoke': (4, 4),
+    'visible_structural_damage': (3, 4),
+    'possible_flooding_or_listing': (3, 5),
+    'poor_visibility': (3, 3),
+    'rough_seas': (3, 3),
+    'close_vessel_proximity': (2, 3),
+}
+PROMPT = '''You are a maritime visual evidence analyst. Inspect ONLY what is actually visible in this image.
+Do not infer hostile intent, vessel identity, exact distance, probability, accident, or unseen conditions.
+Return ONLY valid JSON with keys:
+"summary": short string,
+"hazards": array of objects {"type": one of [fire_or_smoke,visible_structural_damage,possible_flooding_or_listing,poor_visibility,rough_seas,close_vessel_proximity], "evidence": short observable description, "certainty": one of [clear,possible,uncertain]},
+"limitations": array of strings.
+If no hazards are visibly supported, return hazards: []. A ship type by itself is not a hazard.
+If the scene is unclear, say so in limitations. No markdown fences.'''
+
+
+def load_model():
+    """Load the free small VLM once; float32/eager are safer on Windows CPUs."""
+    import torch
+    from transformers import AutoProcessor, AutoModelForVision2Seq
+    torch.set_num_threads(min(4, max(1, torch.get_num_threads())))
+    processor = AutoProcessor.from_pretrained(MODEL_ID)
+    # Avoid processing 2048px images into many patches on an 8 GB CPU machine.
+    if hasattr(processor, "image_processor"):
+        processor.image_processor.size = {"longest_edge": 512}
+    model = AutoModelForVision2Seq.from_pretrained(
+        MODEL_ID, torch_dtype=torch.float32, _attn_implementation="eager",
+        low_cpu_mem_usage=True
+    ).to("cpu").eval()
+    return processor, model
+
+
+def _parse_model_output(raw):
+    """Parse structured output; preserve unstructured output as UNVERIFIED, not evidence."""
+    cleaned = str(raw or '').strip()
+    cleaned = re.sub(r'^```(?:json)?\s*|\s*```$', '', cleaned, flags=re.I).strip()
+    decoder = json.JSONDecoder()
+    for i, char in enumerate(cleaned):
+        if char != '{':
+            continue
+        try:
+            result, _ = decoder.raw_decode(cleaned[i:])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(result, dict) and isinstance(result.get('hazards'), list):
+            valid = []
+            for item in result['hazards']:
+                if not isinstance(item, dict):
+                    continue
+                kind = str(item.get('type', '')).strip()
+                certainty = str(item.get('certainty', '')).strip().lower()
+                evidence = str(item.get('evidence', '')).strip()
+                if kind in HAZARDS and certainty in ('clear', 'possible', 'uncertain') and evidence:
+                    valid.append({'type': kind, 'certainty': certainty, 'evidence': evidence})
+            result['hazards'] = valid
+            result['limitations'] = result.get('limitations', [])
+            result['summary'] = str(result.get('summary', ''))
+            result['assessment_status'] = 'structured_model_output'
+            return result
+
+    # Small VLMs often echo the hazard vocabulary from the prompt instead of
+    # observing an image. Do NOT convert these words to verified image evidence.
+    vocabulary = {
+        'fire_or_smoke': ('fire or smoke', 'fire', 'smoke'),
+        'visible_structural_damage': ('visible structural damage', 'structural damage'),
+        'possible_flooding_or_listing': ('possible flooding or listing', 'flooding', 'listing'),
+        'poor_visibility': ('poor visibility',),
+        'rough_seas': ('rough seas',),
+        'close_vessel_proximity': ('close vessel proximity',),
+    }
+    lower = cleaned.lower()
+    candidates = [kind for kind, terms in vocabulary.items()
+                  if any(re.search(r'(?<!\w)' + re.escape(term) + r'(?!\w)', lower) for term in terms)]
+    return {
+        'summary': 'Model returned unstructured text; visual hazards were not verified.',
+        'hazards': [],
+        'candidate_indicators': candidates,
+        'raw_model_output': cleaned[:1000],
+        'assessment_status': 'unverified_unstructured_output',
+        'limitations': [
+            'The vision model did not return structured, image-specific evidence.',
+            'Listed candidate indicators may be a repetition of the prompt, not observations.',
+            'No risk category can be reliably assigned from this response; human review is required.',
+        ],
+    }
+
+
+def analyse_image(image, processor, model):
+    import torch
+    # Work on a copy to avoid mutating the dashboard's uploaded image.
+    image = image.convert('RGB')
+    image.thumbnail((512, 512))
+    messages = [{'role': 'user', 'content': [
+        {'type': 'image'}, {'type': 'text', 'text': PROMPT}
+    ]}]
+    prompt = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = processor(text=prompt, images=[image], return_tensors='pt').to('cpu')
+    with torch.inference_mode():
+        output_ids = model.generate(**inputs, max_new_tokens=320, do_sample=False)
+    generated = output_ids[:, inputs['input_ids'].shape[1]:]
+    raw = processor.batch_decode(generated, skip_special_tokens=True)[0].strip()
+    return _parse_model_output(raw)
+
+
+def score_assessment(observations):
+    """Illustrative triage scores, NOT calibrated incident likelihoods."""
+    assessed = []
+    for hazard in observations.get('hazards', []):
+        kind = hazard.get('type')
+        certainty = hazard.get('certainty')
+        evidence = str(hazard.get('evidence', '')).strip()
+        if kind not in HAZARDS or certainty not in ('clear','possible','uncertain') or not evidence:
+            continue
+        likelihood_indicator, severity = HAZARDS[kind]
+        # Uncertain descriptions should not automatically trigger high-priority incidents.
+        if certainty == 'possible': likelihood_indicator = min(likelihood_indicator, 2)
+        if certainty == 'uncertain': likelihood_indicator = 1
+        score = likelihood_indicator * severity
+        assessed.append({'type':kind,'evidence':evidence,'certainty':certainty,
+                         'likelihood_indicator':likelihood_indicator,'severity':severity,'score':score})
+    maximum = max((h['score'] for h in assessed), default=0)
+    level = ('Critical' if maximum >= 20 else 'High' if maximum >= 10 else
+             'Moderate' if maximum >= 5 else 'Low')
+    limitations = observations.get('limitations', [])
+    if observations.get('assessment_status') == 'unverified_unstructured_output':
+        level = 'Unconfirmed'
+    elif not assessed:
+        level = 'Unconfirmed' if limitations else 'No visible hazards identified'
+    return {'level':level,'score':maximum,'hazards':assessed,
+            'summary':str(observations.get('summary','')),
+            'assessment_status':observations.get('assessment_status', 'unspecified'),
+            'candidate_indicators':observations.get('candidate_indicators', []),
+            'raw_model_output':observations.get('raw_model_output', ''),
+            'limitations':limitations if isinstance(limitations,list) else [str(limitations)],
+            'disclaimer':'Provisional image-based screening only; human verification required. Scores are not validated incident probabilities.'}
+
+
+def save_result(filename, assessment, predictions):
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute('''CREATE TABLE IF NOT EXISTS visual_risk_results (
+            id INTEGER PRIMARY KEY AUTOINCREMENT, timestamp TEXT NOT NULL,
+            filename TEXT NOT NULL, risk_level TEXT NOT NULL, score INTEGER NOT NULL,
+            assessment_json TEXT NOT NULL, detections_json TEXT NOT NULL)''')
+        conn.execute('''INSERT INTO visual_risk_results
+            (timestamp,filename,risk_level,score,assessment_json,detections_json)
+            VALUES (?,?,?,?,?,?)''',
+            (datetime.now(timezone.utc).isoformat(),filename,assessment['level'],assessment['score'],
+             json.dumps(assessment),json.dumps(predictions)))
+        conn.commit()
+
+
+def read_results():
+    if not DB_PATH.exists(): return []
+    with sqlite3.connect(DB_PATH) as conn:
+        try:
+            rows = conn.execute('''SELECT id,timestamp,filename,risk_level,score,assessment_json
+                FROM visual_risk_results ORDER BY id DESC''').fetchall()
+        except sqlite3.OperationalError:
+            return []
+    return [{'ID':r[0], 'Timestamp':r[1], 'Image':r[2], 'Risk Level':r[3],
+             'Score':r[4], 'Assessment':json.loads(r[5])} for r in rows]

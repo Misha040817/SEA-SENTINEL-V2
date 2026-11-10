@@ -1,0 +1,103 @@
+{
+  "updated_at": "2026-11-10T15:27:22.600316+00:00",
+  "freshness_minutes": 30,
+  "note": "Approximate coastal monitoring boxes; not official state boundaries or proof of receiver coverage.",
+  "input_diagnostics": {
+    "aisstream": {
+      "input_records": 509,
+      "fresh_valid": 509
+    },
+    "openwaters": {
+      "input_records": 70,
+      "stale_or_future": 70
+    }
+  },
+  "total_unique_fresh_vessels": 509,
+  "dashboard_regions": {
+    "Johor / Singapore": 502,
+    "Sabah": 7
+  },
+  "coastal_areas": [
+    {
+      "area": "Johor / Singapore Strait",
+      "fresh_vessels": 502,
+      "status": "Fresh observations present"
+    },
+    {
+      "area": "Sabah / East Coast",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Sabah / West Coast",
+      "fresh_vessels": 7,
+      "status": "Fresh observations present"
+    },
+    {
+      "area": "Labuan / Brunei Bay",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Sarawak / Miri",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Sarawak / Bintulu",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Sarawak / Kuching",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Kelantan / Kota Bharu",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Terengganu / East Coast",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Pahang / Kuantan",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Penang / Kedah",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Perlis / Langkawi",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Perak / West Coast",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Port Klang / Selangor",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Melaka / Negeri Sembilan Coast",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    },
+    {
+      "area": "Johor / West Coast",
+      "fresh_vessels": 0,
+      "status": "No fresh observations in input files"
+    }
+  ],
+  "unclassified_fresh_vessels": 0
+}

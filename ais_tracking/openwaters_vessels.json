@@ -1,0 +1,819 @@
+{
+  "source": "openwaters",
+  "updated_at": "2026-11-07T14:00:06.573869+00:00",
+  "max_age_minutes": 30,
+  "regions": {
+    "Port Klang / Selangor": {
+      "total": 13,
+      "recent": 0,
+      "status": "ok"
+    },
+    "Penang": {
+      "total": 1,
+      "recent": 0,
+      "status": "ok"
+    },
+    "Sarawak / Kuching": {
+      "total": 23,
+      "recent": 5,
+      "status": "ok"
+    },
+    "Sarawak / Bintulu": {
+      "total": 3,
+      "recent": 0,
+      "status": "ok"
+    },
+    "Kelantan": {
+      "total": 0,
+      "recent": 0,
+      "status": "ok"
+    },
+    "Terengganu": {
+      "total": 2,
+      "recent": 0,
+      "status": "ok"
+    },
+    "Pahang / Kuantan": {
+      "total": 72,
+      "recent": 35,
+      "status": "ok"
+    },
+    "Sabah / Kota Kinabalu": {
+      "total": 56,
+      "recent": 30,
+      "status": "ok"
+    }
+  },
+  "vessels": [
+    {
+      "mmsi": "565904000",
+      "name": "KOTA RESTU",
+      "latitude": 1.8141833333333333,
+      "longitude": 110.54186666666666,
+      "speed_knots": 0,
+      "course": 57,
+      "last_seen": "2026-11-07T13:45:22+00:00",
+      "source": "openwaters",
+      "region": "Sarawak / Kuching"
+    },
+    {
+      "mmsi": "898522725",
+      "name": "716D  100%",
+      "latitude": 1.948985,
+      "longitude": 110.92368833333333,
+      "speed_knots": 0.1,
+      "course": 228,
+      "last_seen": "2026-11-07T13:56:09+00:00",
+      "source": "openwaters",
+      "region": "Sarawak / Kuching"
+    },
+    {
+      "mmsi": "60100719",
+      "name": "719  100%",
+      "latitude": 1.94905,
+      "longitude": 110.92377666666667,
+      "speed_knots": 0.7,
+      "course": 204,
+      "last_seen": "2026-11-07T13:56:28+00:00",
+      "source": "openwaters",
+      "region": "Sarawak / Kuching"
+    },
+    {
+      "mmsi": "533767000",
+      "name": "MV.DANUM 9",
+      "latitude": 1.78816,
+      "longitude": 110.61960666666667,
+      "speed_knots": 7.8,
+      "course": 221.7,
+      "last_seen": "2026-11-07T13:36:04+00:00",
+      "source": "openwaters",
+      "region": "Sarawak / Kuching"
+    },
+    {
+      "mmsi": "898522726",
+      "name": "716B  89%",
+      "latitude": 1.95206,
+      "longitude": 110.93098666666667,
+      "speed_knots": 0.4,
+      "course": 171,
+      "last_seen": "2026-11-07T13:56:48+00:00",
+      "source": "openwaters",
+      "region": "Sarawak / Kuching"
+    },
+    {
+      "mmsi": "567615000",
+      "name": "PB ATHICHA",
+      "latitude": 3.9760333333333335,
+      "longitude": 103.42708166666667,
+      "speed_knots": 0,
+      "course": 66,
+      "last_seen": "2026-11-07T13:58:22+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533132404",
+      "name": "TM GLOBAL 58",
+      "latitude": 3.9710783333333333,
+      "longitude": 103.42855166666666,
+      "speed_knots": 0,
+      "course": 83.3,
+      "last_seen": "2026-11-07T13:59:26+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "563167200",
+      "name": "SRIWANGI",
+      "latitude": 3.94964,
+      "longitude": 103.48132166666666,
+      "speed_knots": 0.1,
+      "course": 275.2,
+      "last_seen": "2026-11-07T13:58:29+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "636022670",
+      "name": "DING HENG 37",
+      "latitude": 3.95767,
+      "longitude": 103.47767833333334,
+      "speed_knots": 0,
+      "course": 150.5,
+      "last_seen": "2026-11-07T13:57:59+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "538005376",
+      "name": "ERRIKOS",
+      "latitude": 3.9712416666666663,
+      "longitude": 103.42674166666667,
+      "speed_knots": 0,
+      "course": 206.7,
+      "last_seen": "2026-11-07T13:58:31+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "352003471",
+      "name": "RO QUEEN",
+      "latitude": 3.9675533333333335,
+      "longitude": 103.48434166666667,
+      "speed_knots": 0.3,
+      "course": 94,
+      "last_seen": "2026-11-07T13:59:40+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533000601",
+      "name": "KM LANGKAWI",
+      "latitude": 3.970545,
+      "longitude": 103.43284166666668,
+      "speed_knots": 0,
+      "course": null,
+      "last_seen": "2026-11-07T13:59:39+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "636020720",
+      "name": "ECO SIKOUSIS",
+      "latitude": 3.993056666666667,
+      "longitude": 103.42466333333333,
+      "speed_knots": 0,
+      "course": 240.5,
+      "last_seen": "2026-11-07T13:59:43+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533001640",
+      "name": "PETRA ORBIT",
+      "latitude": 3.9851083333333337,
+      "longitude": 103.44052,
+      "speed_knots": 0.1,
+      "course": 301.7,
+      "last_seen": "2026-11-07T13:57:07+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "355464000",
+      "name": "CASSIA",
+      "latitude": 3.9724166666666667,
+      "longitude": 103.47632333333333,
+      "speed_knots": 0,
+      "course": 153.1,
+      "last_seen": "2026-11-07T13:59:02+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "668116273",
+      "name": "HOANG TRIEU 99",
+      "latitude": 3.97019,
+      "longitude": 103.42353833333333,
+      "speed_knots": 0,
+      "course": 108.9,
+      "last_seen": "2026-11-07T13:57:35+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "355844000",
+      "name": "AMARILLO",
+      "latitude": 3.993403333333333,
+      "longitude": 103.55932333333334,
+      "speed_knots": 0.1,
+      "course": 286.7,
+      "last_seen": "2026-11-07T13:58:12+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "441128000",
+      "name": "ONSAN CHEMI",
+      "latitude": 3.9746966666666665,
+      "longitude": 103.42920333333333,
+      "speed_knots": 0,
+      "course": 343.7,
+      "last_seen": "2026-11-07T13:58:58+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533160042",
+      "name": "AMBERSTAR 40607",
+      "latitude": 3.97072,
+      "longitude": 103.43224333333333,
+      "speed_knots": 0,
+      "course": 139.2,
+      "last_seen": "2026-11-07T13:59:36+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533001190",
+      "name": "POWER TENANG",
+      "latitude": 3.9705633333333332,
+      "longitude": 103.43224166666667,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-07T13:59:38+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533092763",
+      "name": "HG",
+      "latitude": 3.833528333333333,
+      "longitude": 103.50558333333333,
+      "speed_knots": 7.2,
+      "course": 67.9,
+      "last_seen": "2026-11-07T13:56:09+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533001180",
+      "name": "MEGAH TENANG",
+      "latitude": 3.97079,
+      "longitude": 103.4323,
+      "speed_knots": 0,
+      "course": 159.7,
+      "last_seen": "2026-11-07T13:59:45+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533160224",
+      "name": "AMBERSTAR 40608",
+      "latitude": 3.9705,
+      "longitude": 103.43223166666667,
+      "speed_knots": 0,
+      "course": 237.2,
+      "last_seen": "2026-11-07T13:59:28+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "636017493",
+      "name": "HG LEIXOES",
+      "latitude": 3.9558016666666664,
+      "longitude": 103.55676333333334,
+      "speed_knots": 0.1,
+      "course": 251.6,
+      "last_seen": "2026-11-07T13:59:11+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "209172000",
+      "name": "AGIOS SPYRIDONAS",
+      "latitude": 3.9477466666666667,
+      "longitude": 103.560025,
+      "speed_knots": 0,
+      "course": 127.2,
+      "last_seen": "2026-11-07T13:58:16+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "352004438",
+      "name": "HUI FENG HAI 16",
+      "latitude": 3.9697883333333333,
+      "longitude": 103.42215333333334,
+      "speed_knots": 0,
+      "course": null,
+      "last_seen": "2026-11-07T13:59:34+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533000000",
+      "name": "KUANTAN PORT CONTROL",
+      "latitude": 3.969943333333333,
+      "longitude": 103.43294666666667,
+      "speed_knots": 0,
+      "course": null,
+      "last_seen": "2026-11-07T13:59:44+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "577687000",
+      "name": "JH PIONEER",
+      "latitude": 3.9713066666666665,
+      "longitude": 103.42142666666668,
+      "speed_knots": 0,
+      "course": 244.2,
+      "last_seen": "2026-11-07T13:56:54+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "563299000",
+      "name": "GLORY FORWARDER",
+      "latitude": 3.979285,
+      "longitude": 103.41658333333334,
+      "speed_knots": 0,
+      "course": 149.3,
+      "last_seen": "2026-11-07T13:58:41+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "567423000",
+      "name": "TASCO ANAN",
+      "latitude": 4.192443333333333,
+      "longitude": 103.51474499999999,
+      "speed_knots": 0.1,
+      "course": 238.7,
+      "last_seen": "2026-11-07T13:54:52+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "352004712",
+      "name": "GAS STAR",
+      "latitude": 4.18507,
+      "longitude": 103.524995,
+      "speed_knots": 0.1,
+      "course": 335.3,
+      "last_seen": "2026-11-07T13:50:31+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533133944",
+      "name": "PH LEO",
+      "latitude": 4.256305,
+      "longitude": 103.4697,
+      "speed_knots": 0,
+      "course": 3.3,
+      "last_seen": "2026-11-07T13:53:58+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533056500",
+      "name": "TAHA ASSAFA",
+      "latitude": 4.262861666666667,
+      "longitude": 103.49300666666666,
+      "speed_knots": 0.2,
+      "course": 315,
+      "last_seen": "2026-11-07T13:42:53+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533134006",
+      "name": "FORTUNE VENTURE",
+      "latitude": 4.263885,
+      "longitude": 103.48517333333332,
+      "speed_knots": 0.1,
+      "course": 129,
+      "last_seen": "2026-11-07T13:56:19+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533061900",
+      "name": "SK MARATHON",
+      "latitude": 4.259368333333333,
+      "longitude": 103.50970000000001,
+      "speed_knots": 0.2,
+      "course": 147.4,
+      "last_seen": "2026-11-07T13:56:53+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533134142",
+      "name": "PELICAN CREDENCE",
+      "latitude": 4.256535,
+      "longitude": 103.46960666666668,
+      "speed_knots": 0.2,
+      "course": 293,
+      "last_seen": "2026-11-07T13:58:49+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533133072",
+      "name": "FC MARINE 5",
+      "latitude": 4.251765,
+      "longitude": 103.48111999999999,
+      "speed_knots": 0.1,
+      "course": null,
+      "last_seen": "2026-11-07T13:57:12+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533130184",
+      "name": "BRIDGEWATER 63",
+      "latitude": 4.245508333333333,
+      "longitude": 103.50571,
+      "speed_knots": 0.2,
+      "course": 75,
+      "last_seen": "2026-11-07T13:50:08+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "564133000",
+      "name": "EWAN UNITY",
+      "latitude": 4.2554316666666665,
+      "longitude": 103.46689500000001,
+      "speed_knots": 2.7,
+      "course": 349.7,
+      "last_seen": "2026-11-07T13:46:26+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "533131175",
+      "name": "TWO LEKIR",
+      "latitude": 4.241225,
+      "longitude": 103.47295166666666,
+      "speed_knots": 5.9,
+      "course": 143.5,
+      "last_seen": "2026-11-07T13:57:04+00:00",
+      "source": "openwaters",
+      "region": "Pahang / Kuantan"
+    },
+    {
+      "mmsi": "563175200",
+      "name": "HAFNIA LOIRE",
+      "latitude": 5.966265000000001,
+      "longitude": 115.75851333333334,
+      "speed_knots": 13.3,
+      "course": 347.7,
+      "last_seen": "2026-11-07T13:39:53+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "553160279",
+      "name": "BNE B1",
+      "latitude": 5.956878333333333,
+      "longitude": 116.04480333333332,
+      "speed_knots": 0,
+      "course": 173.4,
+      "last_seen": "2026-11-07T13:51:56+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533150089",
+      "name": "YTC TUG 37",
+      "latitude": 5.838903333333334,
+      "longitude": 116.02540166666667,
+      "speed_knots": 0.5,
+      "course": 47.9,
+      "last_seen": "2026-11-07T13:53:50+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "567002201",
+      "name": "DREAM 82",
+      "latitude": 5.966966666666666,
+      "longitude": 116.05522166666667,
+      "speed_knots": 0,
+      "course": null,
+      "last_seen": "2026-11-07T13:53:51+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533133969",
+      "name": "AESEN 110",
+      "latitude": 5.996951666666666,
+      "longitude": 116.08171166666666,
+      "speed_knots": 0,
+      "course": 280.1,
+      "last_seen": "2026-11-07T13:59:31+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "200000088",
+      "name": "SRI PERKASA 88",
+      "latitude": 5.967443333333334,
+      "longitude": 116.056925,
+      "speed_knots": 0,
+      "course": 230.5,
+      "last_seen": "2026-11-07T13:48:12+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533134114",
+      "name": "CALM DOWN",
+      "latitude": 5.9767850000000005,
+      "longitude": 116.06112166666666,
+      "speed_knots": 0,
+      "course": null,
+      "last_seen": "2026-11-07T13:59:39+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "352004091",
+      "name": "KAISA",
+      "latitude": 5.998078333333334,
+      "longitude": 116.08109666666665,
+      "speed_knots": 0,
+      "course": 143.6,
+      "last_seen": "2026-11-07T13:57:01+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "503243300",
+      "name": "LA BOHEME",
+      "latitude": 5.9669083333333335,
+      "longitude": 116.05688166666667,
+      "speed_knots": 0.1,
+      "course": null,
+      "last_seen": "2026-11-07T13:56:07+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "319117400",
+      "name": "TWIZZLE",
+      "latitude": 5.967271666666666,
+      "longitude": 116.05502166666666,
+      "speed_knots": 0,
+      "course": 233.1,
+      "last_seen": "2026-11-07T13:57:04+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533133243",
+      "name": "DANMAI 33",
+      "latitude": 5.996358333333333,
+      "longitude": 116.08123333333333,
+      "speed_knots": 0,
+      "course": 129.5,
+      "last_seen": "2026-11-07T13:58:59+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533133305",
+      "name": "MARINE CITRINE",
+      "latitude": 5.997003333333334,
+      "longitude": 116.08161333333334,
+      "speed_knots": 0,
+      "course": 359.9,
+      "last_seen": "2026-11-07T13:59:31+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "540004890",
+      "name": "MARIE LOUISE",
+      "latitude": 5.9676350000000005,
+      "longitude": 116.05644333333333,
+      "speed_knots": 0,
+      "course": 80.2,
+      "last_seen": "2026-11-07T13:57:17+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "574001810",
+      "name": "VINH QUANG 379",
+      "latitude": 5.995185,
+      "longitude": 116.07953833333333,
+      "speed_knots": 0.2,
+      "course": 221.4,
+      "last_seen": "2026-11-07T13:54:52+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533133067",
+      "name": "MTT BINTANGOR",
+      "latitude": 6.036746666666667,
+      "longitude": 116.07518499999999,
+      "speed_knots": 0,
+      "course": 74,
+      "last_seen": "2026-11-07T13:58:54+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533132152",
+      "name": "NAUTICA KLUANG 2",
+      "latitude": 6.038063333333333,
+      "longitude": 116.08452666666668,
+      "speed_knots": 0,
+      "course": 133.1,
+      "last_seen": "2026-11-07T13:58:14+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "525019627",
+      "name": "MV CERDAS",
+      "latitude": 6.049838333333333,
+      "longitude": 116.088695,
+      "speed_knots": 0,
+      "course": 16.2,
+      "last_seen": "2026-11-07T13:55:08+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533130433",
+      "name": "NAUTICA PUTERI XXIX",
+      "latitude": 6.09415,
+      "longitude": 116.121325,
+      "speed_knots": 0,
+      "course": 219.4,
+      "last_seen": "2026-11-07T13:59:32+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "503171000",
+      "name": "AUSTRALIAN WARSHIP",
+      "latitude": 6.027656666666667,
+      "longitude": 116.06267,
+      "speed_knots": 0.4,
+      "course": 133.3,
+      "last_seen": "2026-11-07T13:59:19+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533170153",
+      "name": "MV LENA",
+      "latitude": 6.025503333333333,
+      "longitude": 116.07826,
+      "speed_knots": 0,
+      "course": null,
+      "last_seen": "2026-11-07T13:57:20+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533160214",
+      "name": "MANDAHAN",
+      "latitude": 6.008483333333333,
+      "longitude": 116.08725,
+      "speed_knots": 0,
+      "course": 198.4,
+      "last_seen": "2026-11-07T13:57:58+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533170211",
+      "name": "VIRGO 19",
+      "latitude": 6.049813333333334,
+      "longitude": 116.10111166666667,
+      "speed_knots": 0,
+      "course": 169.1,
+      "last_seen": "2026-11-07T13:52:18+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533257000",
+      "name": "MV THAILINE",
+      "latitude": 6.07158,
+      "longitude": 116.11818166666667,
+      "speed_knots": 0,
+      "course": 79,
+      "last_seen": "2026-11-07T13:59:47+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "538009396",
+      "name": "ATLAS T",
+      "latitude": 6.074866666666667,
+      "longitude": 116.05611999999999,
+      "speed_knots": 0.1,
+      "course": 196.8,
+      "last_seen": "2026-11-07T13:59:00+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "563273200",
+      "name": "STARGAZE",
+      "latitude": 6.082223333333333,
+      "longitude": 116.12245333333334,
+      "speed_knots": 0,
+      "course": 218.8,
+      "last_seen": "2026-11-07T13:57:45+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533170341",
+      "name": "BIWIN 11",
+      "latitude": 6.0745249999999995,
+      "longitude": 116.12613333333334,
+      "speed_knots": 0,
+      "course": 95,
+      "last_seen": "2026-11-07T13:59:20+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "567001860",
+      "name": "BS THANYA",
+      "latitude": 6.085,
+      "longitude": 116.12443166666667,
+      "speed_knots": 0,
+      "course": 86.5,
+      "last_seen": "2026-11-07T13:55:00+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "477493600",
+      "name": "SITC INCHON",
+      "latitude": 6.069266666666667,
+      "longitude": 116.11647833333333,
+      "speed_knots": 0,
+      "course": 119.9,
+      "last_seen": "2026-11-07T13:59:20+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533160319",
+      "name": "SABAH 2",
+      "latitude": 6.096938333333333,
+      "longitude": 116.11671833333334,
+      "speed_knots": 0,
+      "course": 217.3,
+      "last_seen": "2026-11-07T13:56:03+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    },
+    {
+      "mmsi": "533130895",
+      "name": "MEGA BAKTI",
+      "latitude": 6.02226,
+      "longitude": 116.08273333333334,
+      "speed_knots": 0,
+      "course": 234.5,
+      "last_seen": "2026-11-07T13:57:40+00:00",
+      "source": "openwaters",
+      "region": "Sabah / Kota Kinabalu"
+    }
+  ]
+}

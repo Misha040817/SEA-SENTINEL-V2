@@ -1,0 +1,4 @@
+mmsi,timestamp,latitude,longitude,sog_knots,restricted_zone_entry,route_deviation_nm,loitering_minutes,visual_ais_mismatch
+533000001,2026-11-02T05:59:00Z,3.0,101.0,12,false,0,0,false
+533000002,2026-11-02T05:30:00Z,3.1,101.1,28,true,5,50,false
+533000003,2026-11-02T05:58:00Z,3.2,101.2,8,false,1,0,false

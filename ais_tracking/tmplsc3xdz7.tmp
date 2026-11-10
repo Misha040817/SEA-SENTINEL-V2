@@ -1,0 +1,884 @@
+{
+  "updated_at": "2026-11-10T14:55:24.960628+00:00",
+  "vessels": [
+    {
+      "mmsi": "352004311",
+      "name": "NAMI ONE",
+      "latitude": 1.2428166666666667,
+      "longitude": 103.99138333333333,
+      "speed_knots": 9.5,
+      "course": 76,
+      "last_seen": "2026-11-10T14:17:45.773088+00:00"
+    },
+    {
+      "mmsi": "563066440",
+      "name": "VICTORIA EXPRESS",
+      "latitude": 1.2696150000000002,
+      "longitude": 103.865825,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-10T14:54:30.399400+00:00"
+    },
+    {
+      "mmsi": "563041219",
+      "name": "Unknown",
+      "latitude": 1.2688583333333334,
+      "longitude": 103.86499666666667,
+      "speed_knots": 0.1,
+      "course": 360,
+      "last_seen": "2026-11-10T11:53:26.357889+00:00"
+    },
+    {
+      "mmsi": "566431000",
+      "name": "SOL PIONEER",
+      "latitude": 1.0766099999999998,
+      "longitude": 103.89401166666667,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-10T14:01:18.191575+00:00"
+    },
+    {
+      "mmsi": "565102000",
+      "name": "AYER CHERDAS",
+      "latitude": 1.24431,
+      "longitude": 103.78841333333334,
+      "speed_knots": 0.1,
+      "course": 272.9,
+      "last_seen": "2026-11-10T14:01:48.958430+00:00"
+    },
+    {
+      "mmsi": "563036640",
+      "name": "PILOT GP03",
+      "latitude": 1.257295,
+      "longitude": 103.84271,
+      "speed_knots": 6.6,
+      "course": 84.7,
+      "last_seen": "2026-11-10T14:54:06.289176+00:00"
+    },
+    {
+      "mmsi": "548688000",
+      "name": "OSHIMA TRADER",
+      "latitude": 1.17772,
+      "longitude": 103.80528,
+      "speed_knots": 10.2,
+      "course": 251.8,
+      "last_seen": "2026-11-10T11:57:11.393663+00:00"
+    },
+    {
+      "mmsi": "563157800",
+      "name": "TALENT STAR",
+      "latitude": 1.2673116666666668,
+      "longitude": 103.99964166666668,
+      "speed_knots": 2.8,
+      "course": 258.8,
+      "last_seen": "2026-11-10T12:03:11.335853+00:00"
+    },
+    {
+      "mmsi": "525505508",
+      "name": "ASL PHOENIX",
+      "latitude": 1.0787966666666666,
+      "longitude": 103.89732833333333,
+      "speed_knots": 0,
+      "course": 360,
+      "last_seen": "2026-11-10T14:03:00.492460+00:00"
+    },
+    {
+      "mmsi": "563874000",
+      "name": "NEW NAVIGATOR 2",
+      "latitude": 1.278855,
+      "longitude": 103.92028833333333,
+      "speed_knots": 0,
+      "course": 144.1,
+      "last_seen": "2026-11-10T14:02:25.185242+00:00"
+    },
+    {
+      "mmsi": "563480000",
+      "name": "EVER BRAVE",
+      "latitude": 1.2958933333333333,
+      "longitude": 103.94605333333334,
+      "speed_knots": 0.1,
+      "course": 93.1,
+      "last_seen": "2026-11-10T14:23:08.891797+00:00"
+    },
+    {
+      "mmsi": "566982000",
+      "name": "HY EMERALD",
+      "latitude": 1.2327766666666666,
+      "longitude": 103.78694666666667,
+      "speed_knots": 6.8,
+      "course": 322.6,
+      "last_seen": "2026-11-10T14:03:36.447490+00:00"
+    },
+    {
+      "mmsi": "538012796",
+      "name": "MANAH",
+      "latitude": 1.3627566666666666,
+      "longitude": 104.40695166666666,
+      "speed_knots": 12,
+      "course": 48.5,
+      "last_seen": "2026-11-10T11:52:57.255087+00:00"
+    },
+    {
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "latitude": 1.2814333333333332,
+      "longitude": 103.89201666666666,
+      "speed_knots": 0,
+      "course": 360,
+      "last_seen": "2026-11-10T14:52:48.740831+00:00"
+    },
+    {
+      "mmsi": "564855000",
+      "name": "TOLL EMPEROR",
+      "latitude": 1.1363583333333334,
+      "longitude": 103.91930666666667,
+      "speed_knots": 0,
+      "course": 202.8,
+      "last_seen": "2026-11-10T14:19:50.388953+00:00"
+    },
+    {
+      "mmsi": "525701029",
+      "name": "MV.OCEANNA 21",
+      "latitude": 1.1533966666666666,
+      "longitude": 103.99674666666667,
+      "speed_knots": 0,
+      "course": 360,
+      "last_seen": "2026-11-10T13:27:45.632892+00:00"
+    },
+    {
+      "mmsi": "566530000",
+      "name": "PACIFIC HONOUR",
+      "latitude": 1.25037,
+      "longitude": 103.90754166666667,
+      "speed_knots": 5.8,
+      "course": 231.5,
+      "last_seen": "2026-11-10T11:40:03.540569+00:00"
+    },
+    {
+      "mmsi": "352004450",
+      "name": "JI ZHE 6",
+      "latitude": 1.0804416666666665,
+      "longitude": 103.89529999999999,
+      "speed_knots": 0,
+      "course": 325,
+      "last_seen": "2026-11-10T14:23:19.698081+00:00"
+    },
+    {
+      "mmsi": "312708000",
+      "name": "Unknown",
+      "latitude": 1.2798116666666668,
+      "longitude": 103.91170000000001,
+      "speed_knots": 4.9,
+      "course": 70.4,
+      "last_seen": "2026-11-10T11:20:16.008057+00:00"
+    },
+    {
+      "mmsi": "311001925",
+      "name": "SUNRISE",
+      "latitude": 1.33763,
+      "longitude": 104.10418166666666,
+      "speed_knots": 0,
+      "course": 16.7,
+      "last_seen": "2026-11-10T14:22:04.890548+00:00"
+    },
+    {
+      "mmsi": "564344000",
+      "name": "VANDA ADVENTURE",
+      "latitude": 1.301115,
+      "longitude": 104.07734666666667,
+      "speed_knots": 0,
+      "course": 209.2,
+      "last_seen": "2026-11-10T13:30:57.334617+00:00"
+    },
+    {
+      "mmsi": "565733000",
+      "name": "KANTEK 2",
+      "latitude": 1.2927083333333333,
+      "longitude": 103.93423333333334,
+      "speed_knots": 0,
+      "course": 245.5,
+      "last_seen": "2026-11-10T13:47:44.645500+00:00"
+    },
+    {
+      "mmsi": "563079390",
+      "name": "ODETTE EXCELLENCE",
+      "latitude": 1.2983866666666666,
+      "longitude": 103.95820666666667,
+      "speed_knots": 0,
+      "course": 346.1,
+      "last_seen": "2026-11-10T14:04:14.984498+00:00"
+    },
+    {
+      "mmsi": "563036650",
+      "name": "PILOT GP04",
+      "latitude": 1.2620733333333334,
+      "longitude": 103.884285,
+      "speed_knots": 19.9,
+      "course": 277.7,
+      "last_seen": "2026-11-10T14:20:09.479770+00:00"
+    },
+    {
+      "mmsi": "566385000",
+      "name": "STRAITS QUEST",
+      "latitude": 1.30162,
+      "longitude": 103.96844,
+      "speed_knots": 0.1,
+      "course": 243,
+      "last_seen": "2026-11-10T14:00:24.926239+00:00"
+    },
+    {
+      "mmsi": "563015950",
+      "name": "STET POLARIS",
+      "latitude": 1.175385,
+      "longitude": 103.78697666666667,
+      "speed_knots": 11.7,
+      "course": 57,
+      "last_seen": "2026-11-10T14:02:27.825467+00:00"
+    },
+    {
+      "mmsi": "668116571",
+      "name": "MP III",
+      "latitude": 1.1554,
+      "longitude": 103.93026,
+      "speed_knots": 0,
+      "course": 109.6,
+      "last_seen": "2026-11-10T14:02:51.357763+00:00"
+    },
+    {
+      "mmsi": "563021200",
+      "name": "KAI EI MARU 8",
+      "latitude": 1.2980416666666665,
+      "longitude": 103.99513333333333,
+      "speed_knots": 0.1,
+      "course": 256,
+      "last_seen": "2026-11-10T12:03:03.755768+00:00"
+    },
+    {
+      "mmsi": "563504000",
+      "name": "OXALIS PEONY",
+      "latitude": 1.3052266666666665,
+      "longitude": 103.99141833333333,
+      "speed_knots": 0,
+      "course": 234,
+      "last_seen": "2026-11-10T13:57:24.554336+00:00"
+    },
+    {
+      "mmsi": "636022968",
+      "name": "WEN JING KOU",
+      "latitude": 1.2706116666666667,
+      "longitude": 103.90574,
+      "speed_knots": 0,
+      "course": 354.6,
+      "last_seen": "2026-11-10T13:29:59.070680+00:00"
+    },
+    {
+      "mmsi": "563083550",
+      "name": "CLEANSEAS JOY",
+      "latitude": 1.2885383333333331,
+      "longitude": 103.96864000000001,
+      "speed_knots": 0,
+      "course": 312.9,
+      "last_seen": "2026-11-10T14:19:18.589387+00:00"
+    },
+    {
+      "mmsi": "563076980",
+      "name": "Unknown",
+      "latitude": 1.2700099999999999,
+      "longitude": 103.86682333333333,
+      "speed_knots": 0,
+      "course": 360,
+      "last_seen": "2026-11-10T13:49:25.615446+00:00"
+    },
+    {
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "latitude": 1.2569583333333334,
+      "longitude": 103.84081333333333,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-10T14:03:47.336895+00:00"
+    },
+    {
+      "mmsi": "564654000",
+      "name": "PIL0T GP43",
+      "latitude": 1.2571783333333333,
+      "longitude": 103.84132500000001,
+      "speed_knots": 0.2,
+      "course": 55.6,
+      "last_seen": "2026-11-10T14:52:47.766725+00:00"
+    },
+    {
+      "mmsi": "563260500",
+      "name": "OXALIS DAISY",
+      "latitude": 1.3042716666666665,
+      "longitude": 103.99594499999999,
+      "speed_knots": 0,
+      "course": 356.3,
+      "last_seen": "2026-11-10T13:33:24.448682+00:00"
+    },
+    {
+      "mmsi": "457687000",
+      "name": "BANDAI GLORY",
+      "latitude": 1.3421416666666666,
+      "longitude": 104.10222166666668,
+      "speed_knots": 0,
+      "course": 270.1,
+      "last_seen": "2026-11-10T14:04:28.093196+00:00"
+    },
+    {
+      "mmsi": "636026668",
+      "name": "MOL EXPLORER",
+      "latitude": 1.2371450000000002,
+      "longitude": 103.78046166666667,
+      "speed_knots": 8,
+      "course": 326.4,
+      "last_seen": "2026-11-10T14:54:09.007929+00:00"
+    },
+    {
+      "mmsi": "525500422",
+      "name": "TB. BUANA BETA",
+      "latitude": 1.1663683333333335,
+      "longitude": 103.97182666666666,
+      "speed_knots": 0.7,
+      "course": 196.2,
+      "last_seen": "2026-11-10T13:34:00.918189+00:00"
+    },
+    {
+      "mmsi": "414535000",
+      "name": "QI HONG",
+      "latitude": 1.29393,
+      "longitude": 104.33707833333332,
+      "speed_knots": 10.7,
+      "course": 51.3,
+      "last_seen": "2026-11-10T11:09:41.730277+00:00"
+    },
+    {
+      "mmsi": "563208100",
+      "name": "MAPLE",
+      "latitude": 1.2438033333333334,
+      "longitude": 103.77846500000001,
+      "speed_knots": 9.7,
+      "course": 329.2,
+      "last_seen": "2026-11-10T11:58:44.475193+00:00"
+    },
+    {
+      "mmsi": "563027990",
+      "name": "PERSEITY",
+      "latitude": 1.258105,
+      "longitude": 103.73120666666667,
+      "speed_knots": 7.6,
+      "course": 239.9,
+      "last_seen": "2026-11-10T13:48:42.607159+00:00"
+    },
+    {
+      "mmsi": "564016000",
+      "name": "MARINA OPAL",
+      "latitude": 1.3123633333333333,
+      "longitude": 104.023155,
+      "speed_knots": 0,
+      "course": 303,
+      "last_seen": "2026-11-10T13:48:06.014755+00:00"
+    },
+    {
+      "mmsi": "566867000",
+      "name": "HONESTY",
+      "latitude": 1.3011083333333333,
+      "longitude": 103.9555,
+      "speed_knots": 0.1,
+      "course": 277.5,
+      "last_seen": "2026-11-10T13:51:10.273314+00:00"
+    },
+    {
+      "mmsi": "563042900",
+      "name": "STRAITS INTEGRITY",
+      "latitude": 1.2635066666666668,
+      "longitude": 103.887205,
+      "speed_knots": 0,
+      "course": 158.7,
+      "last_seen": "2026-11-10T14:20:36.927904+00:00"
+    },
+    {
+      "mmsi": "563062780",
+      "name": "STRAITS ETERNITY",
+      "latitude": 1.2969,
+      "longitude": 103.93886666666667,
+      "speed_knots": 4.2,
+      "course": 66.9,
+      "last_seen": "2026-11-10T14:01:53.454131+00:00"
+    },
+    {
+      "mmsi": "312747000",
+      "name": "SUN LIE",
+      "latitude": 1.0462383333333334,
+      "longitude": 103.90902,
+      "speed_knots": 0,
+      "course": 12.5,
+      "last_seen": "2026-11-10T11:26:53.482239+00:00"
+    },
+    {
+      "mmsi": "413573160",
+      "name": "LAN HAI CHANG AN",
+      "latitude": 1.2767833333333334,
+      "longitude": 104.32008333333333,
+      "speed_knots": 12,
+      "course": 61,
+      "last_seen": "2026-11-10T11:56:13.022801+00:00"
+    },
+    {
+      "mmsi": "636020815",
+      "name": "NEW TRUST",
+      "latitude": 1.2780683333333334,
+      "longitude": 104.005155,
+      "speed_knots": 0.1,
+      "course": 207.6,
+      "last_seen": "2026-11-10T13:33:13.502652+00:00"
+    },
+    {
+      "mmsi": "538006860",
+      "name": "JOANNA",
+      "latitude": 1.158725,
+      "longitude": 103.69681833333334,
+      "speed_knots": 10.2,
+      "course": 304.3,
+      "last_seen": "2026-11-10T11:06:14.262364+00:00"
+    },
+    {
+      "mmsi": "525007132",
+      "name": "LIMIN HANDLER",
+      "latitude": 1.090115,
+      "longitude": 103.91203333333333,
+      "speed_knots": 0,
+      "course": 225.2,
+      "last_seen": "2026-11-10T14:04:32.802759+00:00"
+    },
+    {
+      "mmsi": "563012600",
+      "name": "QUEEN STAR 6",
+      "latitude": 1.2071716666666668,
+      "longitude": 103.85750166666666,
+      "speed_knots": 13.5,
+      "course": 287.3,
+      "last_seen": "2026-11-10T14:03:09.346212+00:00"
+    },
+    {
+      "mmsi": "566799000",
+      "name": "EVERMORE",
+      "latitude": 1.2992883333333334,
+      "longitude": 103.943305,
+      "speed_knots": 0,
+      "course": 286.6,
+      "last_seen": "2026-11-10T13:51:22.458991+00:00"
+    },
+    {
+      "mmsi": "413286490",
+      "name": "MING DE 5005",
+      "latitude": 1.2663283333333333,
+      "longitude": 103.87020000000001,
+      "speed_knots": 0.1,
+      "course": 144.1,
+      "last_seen": "2026-11-10T11:57:17.423467+00:00"
+    },
+    {
+      "mmsi": "563004890",
+      "name": "Unknown",
+      "latitude": 1.2699,
+      "longitude": 103.866505,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-10T14:02:42.822063+00:00"
+    },
+    {
+      "mmsi": "566824000",
+      "name": "FRONTEK",
+      "latitude": 1.19967,
+      "longitude": 103.74714833333334,
+      "speed_knots": 0,
+      "course": 196.6,
+      "last_seen": "2026-11-10T11:24:19.223560+00:00"
+    },
+    {
+      "mmsi": "256687000",
+      "name": "CMA CGM SAMSON",
+      "latitude": 1.2663333333333333,
+      "longitude": 103.96436666666666,
+      "speed_knots": 2.5,
+      "course": 49,
+      "last_seen": "2026-11-10T14:03:38.743781+00:00"
+    },
+    {
+      "mmsi": "563025410",
+      "name": "CALISTA",
+      "latitude": 1.2799733333333334,
+      "longitude": 103.91359000000001,
+      "speed_knots": 6,
+      "course": 59.5,
+      "last_seen": "2026-11-10T11:46:03.624679+00:00"
+    },
+    {
+      "mmsi": "440468000",
+      "name": "GLOVIS CAPTAIN",
+      "latitude": 1.277335,
+      "longitude": 103.96660833333334,
+      "speed_knots": 5.2,
+      "course": 3.8,
+      "last_seen": "2026-11-10T14:03:43.138908+00:00"
+    },
+    {
+      "mmsi": "374857000",
+      "name": "UWCON SWIFT",
+      "latitude": 1.2710000000000001,
+      "longitude": 103.87062666666667,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-10T14:00:26.627513+00:00"
+    },
+    {
+      "mmsi": "525210132",
+      "name": "MTS 133",
+      "latitude": 1.2498966666666667,
+      "longitude": 103.86765,
+      "speed_knots": 0,
+      "course": 311.5,
+      "last_seen": "2026-11-10T13:56:25.030565+00:00"
+    },
+    {
+      "mmsi": "563085090",
+      "name": "PILOT 07",
+      "latitude": 1.2702483333333334,
+      "longitude": 103.99968166666666,
+      "speed_knots": 1,
+      "course": 287.8,
+      "last_seen": "2026-11-10T14:17:51.749804+00:00"
+    },
+    {
+      "mmsi": "566746000",
+      "name": "NEPAMORA",
+      "latitude": 1.2209283333333334,
+      "longitude": 103.81274333333334,
+      "speed_knots": 0,
+      "course": 97,
+      "last_seen": "2026-11-10T11:06:27.370794+00:00"
+    },
+    {
+      "mmsi": "538011980",
+      "name": "MONARCH",
+      "latitude": 1.3036633333333334,
+      "longitude": 104.15940333333333,
+      "speed_knots": 0.1,
+      "course": 311,
+      "last_seen": "2026-11-10T13:57:26.793724+00:00"
+    },
+    {
+      "mmsi": "419002180",
+      "name": "SEAQUEST SOMNATH",
+      "latitude": 1.0118683333333334,
+      "longitude": 103.93797500000001,
+      "speed_knots": 0,
+      "course": 304.9,
+      "last_seen": "2026-11-10T14:03:00.129015+00:00"
+    },
+    {
+      "mmsi": "525300032",
+      "name": "OPS AVIOR",
+      "latitude": 1.156685,
+      "longitude": 103.993755,
+      "speed_knots": 0.7,
+      "course": 172.3,
+      "last_seen": "2026-11-10T13:51:47.855185+00:00"
+    },
+    {
+      "mmsi": "525301119",
+      "name": "SPOB CAVALOMARINHO11",
+      "latitude": 1.117275,
+      "longitude": 103.93253833333333,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-10T11:42:28.065377+00:00"
+    },
+    {
+      "mmsi": "563087610",
+      "name": "Unknown",
+      "latitude": 1.2434333333333332,
+      "longitude": 103.91334333333333,
+      "speed_knots": 0,
+      "course": 0,
+      "last_seen": "2026-11-10T11:22:52.585966+00:00"
+    },
+    {
+      "mmsi": "563079220",
+      "name": "Unknown",
+      "latitude": 1.2677233333333333,
+      "longitude": 103.90639833333333,
+      "speed_knots": 4.2,
+      "course": 68.2,
+      "last_seen": "2026-11-10T11:24:47.378879+00:00"
+    },
+    {
+      "mmsi": "311002516",
+      "name": "TENYEA",
+      "latitude": 1.2456666666666665,
+      "longitude": 103.90942166666667,
+      "speed_knots": 0,
+      "course": 162.3,
+      "last_seen": "2026-11-10T14:03:33.866852+00:00"
+    },
+    {
+      "mmsi": "276872000",
+      "name": "GEOQUIP SILVRETTA",
+      "latitude": 1.2706566666666668,
+      "longitude": 103.874895,
+      "speed_knots": 0,
+      "course": 238.6,
+      "last_seen": "2026-11-10T14:03:31.258499+00:00"
+    },
+    {
+      "mmsi": "563603000",
+      "name": "STAR QUEST",
+      "latitude": 1.3029116666666667,
+      "longitude": 103.98393,
+      "speed_knots": 0,
+      "course": 210.1,
+      "last_seen": "2026-11-10T12:03:37.800190+00:00"
+    },
+    {
+      "mmsi": "563337600",
+      "name": "LUCIA COSULICH",
+      "latitude": 1.29685,
+      "longitude": 103.98292833333333,
+      "speed_knots": 0,
+      "course": 161.8,
+      "last_seen": "2026-11-10T14:03:44.161689+00:00"
+    },
+    {
+      "mmsi": "563067950",
+      "name": "PRISM",
+      "latitude": 1.2988199999999999,
+      "longitude": 104.08797166666666,
+      "speed_knots": 0,
+      "course": 252.3,
+      "last_seen": "2026-11-10T14:03:50.717371+00:00"
+    },
+    {
+      "mmsi": "563086440",
+      "name": "QSA FORTUNE 88",
+      "latitude": 1.2743283333333333,
+      "longitude": 103.98650666666667,
+      "speed_knots": 0.2,
+      "course": 139.6,
+      "last_seen": "2026-11-10T11:57:19.992712+00:00"
+    },
+    {
+      "mmsi": "538010186",
+      "name": "SFL FRASER",
+      "latitude": 1.262095,
+      "longitude": 103.92350499999999,
+      "speed_knots": 0.1,
+      "course": 307.2,
+      "last_seen": "2026-11-10T14:21:40.423941+00:00"
+    },
+    {
+      "mmsi": "311000591",
+      "name": "VAN GOGH",
+      "latitude": 1.2186066666666666,
+      "longitude": 103.73517333333332,
+      "speed_knots": 0,
+      "course": 226.7,
+      "last_seen": "2026-11-10T11:06:43.039998+00:00"
+    },
+    {
+      "mmsi": "563021430",
+      "name": "PILOT GP54",
+      "latitude": 1.2406033333333333,
+      "longitude": 103.84232666666666,
+      "speed_knots": 18.3,
+      "course": 221.4,
+      "last_seen": "2026-11-10T14:21:44.095066+00:00"
+    },
+    {
+      "mmsi": "566841000",
+      "name": "CONGO",
+      "latitude": 1.294605,
+      "longitude": 103.97422833333333,
+      "speed_knots": 0,
+      "course": 322.7,
+      "last_seen": "2026-11-10T14:19:08.930224+00:00"
+    },
+    {
+      "mmsi": "563406000",
+      "name": "BTS CALYPSO",
+      "latitude": 1.22485,
+      "longitude": 103.81484999999999,
+      "speed_knots": 0,
+      "course": 315,
+      "last_seen": "2026-11-10T14:20:31.855497+00:00"
+    },
+    {
+      "mmsi": "563269100",
+      "name": "STELLAR OF MAJESTIC",
+      "latitude": 1.1343816666666666,
+      "longitude": 104.05603500000001,
+      "speed_knots": 3.9,
+      "course": 337.3,
+      "last_seen": "2026-11-10T11:42:10.760678+00:00"
+    },
+    {
+      "mmsi": "566842000",
+      "name": "HUMBER",
+      "latitude": 1.2927716666666667,
+      "longitude": 103.95754333333333,
+      "speed_knots": 0,
+      "course": 352.5,
+      "last_seen": "2026-11-10T14:04:05.872149+00:00"
+    },
+    {
+      "mmsi": "563018710",
+      "name": "PRABHU SHAKTI",
+      "latitude": 1.2531966666666667,
+      "longitude": 104.16222333333333,
+      "speed_knots": 11.7,
+      "course": 86.2,
+      "last_seen": "2026-11-10T13:51:29.524461+00:00"
+    },
+    {
+      "mmsi": "210775000",
+      "name": "MARIA P.",
+      "latitude": 1.2745066666666667,
+      "longitude": 104.25875333333333,
+      "speed_knots": 10.4,
+      "course": 82.3,
+      "last_seen": "2026-11-10T12:01:39.119710+00:00"
+    },
+    {
+      "mmsi": "525111013",
+      "name": "T I S  120",
+      "latitude": 1.130425,
+      "longitude": 103.91073333333334,
+      "speed_knots": 0,
+      "course": 360,
+      "last_seen": "2026-11-10T14:03:58.397042+00:00"
+    },
+    {
+      "mmsi": "241365000",
+      "name": "MARAN GAS ACHILLES",
+      "latitude": 1.3241683333333334,
+      "longitude": 104.367555,
+      "speed_knots": 13.8,
+      "course": 46.7,
+      "last_seen": "2026-11-10T14:00:16.079243+00:00"
+    },
+    {
+      "mmsi": "563034920",
+      "name": "LUBOIL MARINE",
+      "latitude": 1.3018466666666666,
+      "longitude": 103.94769,
+      "speed_knots": 0,
+      "course": 66,
+      "last_seen": "2026-11-10T14:00:19.882568+00:00"
+    },
+    {
+      "mmsi": "419001087",
+      "name": "JAG PUNIT",
+      "latitude": 1.2485166666666667,
+      "longitude": 103.91918333333334,
+      "speed_knots": 0.3,
+      "course": 191.7,
+      "last_seen": "2026-11-10T14:03:52.252539+00:00"
+    },
+    {
+      "mmsi": "565643000",
+      "name": "DAVINA",
+      "latitude": 1.2965466666666667,
+      "longitude": 103.94251833333333,
+      "speed_knots": 0,
+      "course": 277.5,
+      "last_seen": "2026-11-10T14:18:46.534564+00:00"
+    },
+    {
+      "mmsi": "525103010",
+      "name": "SILVER LOTUS",
+      "latitude": 1.2623066666666667,
+      "longitude": 104.23945833333333,
+      "speed_knots": 11.3,
+      "course": 83.5,
+      "last_seen": "2026-11-10T12:03:11.814846+00:00"
+    },
+    {
+      "mmsi": "577811000",
+      "name": "VICTORY LIGHT",
+      "latitude": 1.2219983333333333,
+      "longitude": 103.80003333333335,
+      "speed_knots": 0.3,
+      "course": 232.4,
+      "last_seen": "2026-11-10T11:27:51.807234+00:00"
+    },
+    {
+      "mmsi": "636021047",
+      "name": "ORBITER",
+      "latitude": 1.43438,
+      "longitude": 104.50638000000001,
+      "speed_knots": 7.6,
+      "course": 45.7,
+      "last_seen": "2026-11-10T14:01:44.453416+00:00"
+    },
+    {
+      "mmsi": "563004983",
+      "name": "Unknown",
+      "latitude": 1.268615,
+      "longitude": 103.86521333333333,
+      "speed_knots": 0.2,
+      "course": 0,
+      "last_seen": "2026-11-10T14:02:25.128557+00:00"
+    },
+    {
+      "mmsi": "563083790",
+      "name": "GLORIA",
+      "latitude": 1.2978750000000001,
+      "longitude": 104.00414833333333,
+      "speed_knots": 0,
+      "course": 91.1,
+      "last_seen": "2026-11-10T11:54:54.171086+00:00"
+    },
+    {
+      "mmsi": "636019265",
+      "name": "PORT OSAKA",
+      "latitude": 1.1811066666666667,
+      "longitude": 103.82047833333333,
+      "speed_knots": 9.3,
+      "course": 252.2,
+      "last_seen": "2026-11-10T11:33:35.194785+00:00"
+    },
+    {
+      "mmsi": "563562000",
+      "name": "MERLION 27",
+      "latitude": 1.19378,
+      "longitude": 103.743885,
+      "speed_knots": 2.2,
+      "course": 210.9,
+      "last_seen": "2026-11-10T11:06:56.155658+00:00"
+    },
+    {
+      "mmsi": "525019001",
+      "name": "MARINA LINES",
+      "latitude": 1.4261216666666667,
+      "longitude": 103.945355,
+      "speed_knots": 11.5,
+      "course": 283.8,
+      "last_seen": "2026-11-10T11:52:31.741941+00:00"
+    },
+    {
+      "mmsi": "525901751",
+      "name": "OCEANNA23",
+      "latitude": 1.124865,
+      "longitude": 103.92453833333335,
+      "speed_knots": 0,
+      "course": 93.2,
+      "last_seen": "2026-11-10T14:01:03.180830+00:00"
+    },
+    {
+      "mmsi": "354855000",
+      "name": "UNIWELL",
+      "latitude": 1.2662716666666667,
+      "longitude": 103.884705,
+      "speed_knots": 0,
+      "course": 300.1,
+      "last_seen": "2026-11-10T14:18:53.909434+00:00"

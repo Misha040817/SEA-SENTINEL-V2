@@ -1,0 +1,10 @@
+streamlit>=1.35,<2
+pandas>=2.1
+plotly>=5.20
+Pillow>=10
+inference-sdk>=0.20
+opencv-python-headless>=4.8
+numpy>=1.24
+streamlit-webrtc>=0.47
+av>=12
+imageio-ffmpeg>=0.5

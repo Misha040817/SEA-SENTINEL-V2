@@ -1,0 +1,55 @@
+.streamlit/secrets.toml
+
+# Secrets and credentials
+.aisstream_key.dpapi
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.key
+*.pem
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# AIS runtime data
+ais_tracking/vessels_live.json
+ais_tracking/combined_vessels.json
+
+# Local launcher data
+.sea_sentinel_launcher_pids.json
+*.ps1.backup
+*.backup
+
+# Generated files
+outputs/
+results/
+*.log
+
+# Credentials
+.aisstream_key.dpapi
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.key
+*.pem
+
+# Temporary Python files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime files
+.sea_sentinel_launcher_pids.json
+ais_tracking/vessels_live.json
+ais_tracking/combined_vessels.json
+*.log
+
+# Backups
+*.backup
+*.ps1.backup
